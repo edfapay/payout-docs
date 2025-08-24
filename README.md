@@ -17,3 +17,9 @@ Retrieve aggregated transaction data (sales, refunds, fees, and balances) for a 
   ```http
   x-client-id: <CLIENT_ID>
   x-client-secret: <CLIENT_SECRET>
+
+### **Curl Example**
+```
+  curl --location 'https://api.edfapay.com/trx/api/transactions/summary?edfapay_merchant_id=<MERCHANT_ID>'
+    --header 'x-client-id:<CLIENT_ID>'
+    --header 'x-client-secret:<CLIENT_SECRET>'
